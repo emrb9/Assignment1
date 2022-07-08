@@ -1,4 +1,4 @@
-package comp346pa1s2020;
+import java.io.File;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -10,7 +10,7 @@ package comp346pa1s2020;
  *
  * @author Kerly Titus
  */
-public class comp546pa1driver {
+public class comp346pa1driver {
 
     /** 
      * main class
@@ -21,7 +21,7 @@ public class comp546pa1driver {
     	 /*******************************************************************************************************************************************
     	  * TODO : implement all the operations of main class   																					*
     	  ******************************************************************************************************************************************/
-        
+
     	Network objNetwork = new Network("network");            /* Activate the network */
         objNetwork.start();
         Server objServer = new Server();                        /* Start the server */ 
