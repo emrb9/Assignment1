@@ -16,11 +16,12 @@ public class comp346pa1driver {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        for (int i = 0; i < 3; ++i) {
+            runThreads();
+        }
+    }
 
-        /*******************************************************************************************************************************************
-         * TODO : implement all the operations of main class *
-         ******************************************************************************************************************************************/
-
+    public static void runThreads() {
         Network objNetwork = new Network("network"); /* Activate the network */
         objNetwork.start();
         Server objServer = new Server(); /* Start the server */
