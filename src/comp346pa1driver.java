@@ -17,7 +17,9 @@ public class comp346pa1driver {
      */
     public static void main(String[] args) {
         for (int i = 0; i < 3; ++i) {
+            Logger.println("**************** Run " + i + " ****************");
             runThreads();
+            Logger.println("**************** End of run " + i + " ****************");
         }
     }
 
